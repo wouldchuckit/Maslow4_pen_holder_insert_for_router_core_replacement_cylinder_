@@ -2561,7 +2561,8 @@
       "x": 0.02696871628910464,
       "y": 0.4503464203233256,
       "uniqueID": "id-780",
-      "value": 10
+      "name": "RouterDiameter",
+      "value": 69
     }
   ],
   "allConnectors": [
