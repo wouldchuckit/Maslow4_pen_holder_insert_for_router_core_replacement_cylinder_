@@ -3352,8 +3352,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8026041666666667,
-      "y": 0.27294685990338163,
+      "x": 0.8145833333333333,
+      "y": 0.3647342995169082,
       "uniqueID": "id-1256",
       "name": "README",
       "ioValues": [
@@ -3367,8 +3367,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8093750000000001,
-      "y": 0.7922705314009661,
+      "x": 0.8213541666666667,
+      "y": 0.12318840579710146,
       "uniqueID": "id-1258",
       "name": "README",
       "ioValues": [
@@ -3377,13 +3377,13 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "This is a pen holder that would replace the bottom two layers of the wooden router be gone cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber. ",
+      "readMeText": "This is a pen holder that would replace the bottom two layers of the wooden router core replacement cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber. ",
       "global": true
     },
     {
       "atomType": "Readme",
-      "x": 0.03229166666666666,
-      "y": 0.46859903381642515,
+      "x": 0.029166666666666667,
+      "y": 0.48309178743961356,
       "uniqueID": "id-1260",
       "name": "README",
       "ioValues": [
@@ -3392,8 +3392,96 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Readme text here",
+      "readMeText": "These values should match the values in the Maslow4 Router core replacment molecule referenced in this model. ",
       "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.759375,
+      "y": 0.7971014492753623,
+      "uniqueID": "id-1262",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "In it's current form this would need 6 1/8 in bolts and nuts at least 2.5 inches long. ",
+      "global": true
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8630208333333333,
+      "y": 0.7753623188405797,
+      "uniqueID": "id-1264",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 3,
+            "rotate": 150,
+            "translate": {
+              "x": 45.62725886659666,
+              "y": 45.62725886659666
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 33.7251606,
+              "y": 123.9466313
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 120,
+            "translate": {
+              "x": 47.45474851932484,
+              "y": 200.6262475145065
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 270,
+            "translate": {
+              "x": 53.782412868255804,
+              "y": 271.88862638340606
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 33.7251606,
+              "y": 335.9503178
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -3671,6 +3759,11 @@
       "ap2Name": "value",
       "ap1ID": "id-1222",
       "ap2ID": "id-1258"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1222",
+      "ap2ID": "id-1264"
     },
     {
       "ap2Name": "geometry1",
