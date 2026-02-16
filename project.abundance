@@ -57,8 +57,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.5114583333333333,
-      "y": 0.9082125603864735,
+      "x": 0.5109375,
+      "y": 0.9130434782608695,
       "uniqueID": "id-768",
       "name": "Extract Tag",
       "ioValues": [
@@ -701,8 +701,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7166666666666667,
-      "y": 0.463768115942029,
+      "x": 0.71875,
+      "y": 0.45893719806763283,
       "uniqueID": "id-1222",
       "ioValues": [
         {
@@ -918,7 +918,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "These values should match the values in the Maslow4 Router core replacment molecule referenced in this model. ",
+      "readMeText": "The input values should match the values in the Maslow4 Router core replacement molecule referenced in this model. ",
       "global": true
     },
     {
