@@ -34,8 +34,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.08645833333333333,
-      "y": 0.8019323671497585,
+      "x": 0.09010416666666667,
+      "y": 0.7898550724637682,
       "uniqueID": "id-765",
       "name": "Extract Tag",
       "ioValues": [
@@ -49,8 +49,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.08854166666666666,
-      "y": 0.932367149758454,
+      "x": 0.09166666666666667,
+      "y": 0.9541062801932367,
       "uniqueID": "id-768",
       "name": "Extract Tag",
       "ioValues": [
@@ -85,8 +85,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.02395833333333333,
-      "y": 0.6545893719806763,
+      "x": 0.020833333333333332,
+      "y": 0.3333333333333333,
       "uniqueID": "id-780",
       "name": "RouterDiameter",
       "value": 69
@@ -2565,8 +2565,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.12812500000000002,
-      "y": 0.6473429951690821,
+      "x": 0.07135416666666666,
+      "y": 0.34057971014492755,
       "uniqueID": "id-1097",
       "ioValues": [
         {
@@ -2577,16 +2577,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.027083333333333334,
-      "y": 0.5169082125603864,
+      "x": 0.019791666666666666,
+      "y": 0.4734299516908213,
       "uniqueID": "id-1100",
       "name": "CentralHole",
       "value": 49
     },
     {
       "atomType": "Circle",
-      "x": 0.1296875,
-      "y": 0.5217391304347826,
+      "x": 0.0703125,
+      "y": 0.46135265700483086,
       "uniqueID": "id-1102",
       "ioValues": [
         {
@@ -2594,9 +2594,42 @@
           "ioValue": 49
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.12447916666666667,
+      "y": 0.42512077294685996,
+      "uniqueID": "id-1105",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.12343749999999999,
+      "y": 0.2608695652173913,
+      "uniqueID": "id-1109",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3.175
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-777",
+      "ap2ID": "id-1109"
+    },
     {
       "ap2Name": "diameter",
       "ap1ID": "id-780",
@@ -2613,9 +2646,19 @@
       "ap2ID": "id-768"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-1097",
+      "ap2ID": "id-1105"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-1100",
       "ap2ID": "id-1102"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-1102",
+      "ap2ID": "id-1105"
     }
   ],
   "unitsKey": "MM",
