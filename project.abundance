@@ -34,8 +34,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.19579288025889965,
-      "y": 0.7043879907621247,
+      "x": 0.19114583333333332,
+      "y": 0.6304347826086957,
       "uniqueID": "id-765",
       "name": "Extract Tag",
       "ioValues": [
@@ -49,8 +49,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.19471413160733547,
-      "y": 0.8706697459584295,
+      "x": 0.19791666666666669,
+      "y": 0.8864734299516909,
       "uniqueID": "id-768",
       "name": "Extract Tag",
       "ioValues": [
@@ -64,22 +64,22 @@
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.10999999999999999,
+      "x": 0.0165,
+      "y": 0.1,
       "uniqueID": "id-771",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.176,
+      "x": 0.0165,
+      "y": 0.16,
       "uniqueID": "id-774",
       "name": "WallThick"
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.242,
+      "x": 0.0165,
+      "y": 0.22,
       "uniqueID": "id-777",
       "name": "Bit_Diameter"
     },
@@ -131,8 +131,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
+          "x": 0.0165,
+          "y": 0.1,
           "uniqueID": "id-365",
           "name": "WoodThick"
         },
@@ -170,8 +170,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
+          "x": 0.0165,
+          "y": 0.16,
           "uniqueID": "id-369",
           "name": "WallThick"
         },
@@ -348,8 +348,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
+          "x": 0.0165,
+          "y": 0.22,
           "uniqueID": "id-378",
           "name": "RodDiameter"
         },
@@ -685,8 +685,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
+          "x": 0.0165,
+          "y": 0.28,
           "uniqueID": "id-399",
           "name": "BitDiameter"
         },
