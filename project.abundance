@@ -3766,8 +3766,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8260416666666667,
-      "y": 0.6811594202898551,
+      "x": 0.8223958333333333,
+      "y": 0.717391304347826,
       "uniqueID": "id-2665",
       "name": "Extract Tag",
       "ioValues": [
@@ -3776,12 +3776,13 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
+      "tag": "ThinWood",
       "tagIndex": 0
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8244791666666667,
-      "y": 0.9130434782608695,
+      "x": 0.8229166666666666,
+      "y": 0.9178743961352657,
       "uniqueID": "id-2668",
       "name": "Extract Tag",
       "ioValues": [
@@ -3790,6 +3791,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
+      "tag": "ThickWood",
       "tagIndex": 0
     }
   ],
